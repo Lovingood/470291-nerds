@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Vitaly Marchenko](https://up.htmlacademy.ru/htmlcss/20/user/470291).
-* Наставник: `Неизвестно`.
+* Наставник: nesterenkomacks
 
 ---
 
