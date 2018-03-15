@@ -1,1 +1,155 @@
-catalog.html
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>каталог Нёрдс</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-logo">
+          <img src="main-logo.jpg" href="index.html" width="50" height="50" alt="logo nerd's">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="customers.html">Клиенты</a></li>
+          <li><a class="site-navigation-current" href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li class="login-cart">Корзина</li>
+        </ul>
+        <ul class="title">
+          <li class="title-text"><h1>Магазин готовых шаблонов</h1></li>
+        </ul>
+      </nav>
+    </header>
+    <!--форма цены в зависимости от сложности-->
+    <section class="filters">
+      <form>
+        <button class="btn form-btn">Показать</button>
+      </form>
+    </section>
+    <!--интерактивные элементы-->
+    <section class="sorting">
+      <b>Сортировать :</b>
+      <ul>
+        <li>по цене</li>
+        <li>по типу</li>
+        <li>по названию</li>
+      </ul>
+      <button class="btn sorting-down"></button>
+      <button class="btn sorting-up"></button>
+    </section>
+    <section class="catalog">
+      <div class="catalog-list">
+        <article class="catalog-item">
+          <div class="catalog-item-heading"></div>
+          <a class="catalog-item-img-big" href="#">
+            <img class="catalog-item-img" src="img/img-sedona.jpg" alt="sedona" width="360" height="576">
+          </a>
+          <div class="catalog-item-popup">
+            <h2>Sedona</h2>
+            <p>Информационный сайт<br> для туристов</p>
+            <a class="btn price">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item-heading"></div>
+          <a class="catalog-item-img-big" href="#">
+            <img class="catalog-item-img" src="img/img-pink.jpg" alt="pink" width="360" height="576">
+          </a>
+          <div class="catalog-item-popup">
+            <h2>Pink App</h2>
+            <p>Продуктовый лендинг<br> приложения для iOS и Android</p>
+            <a class="btn price">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item-heading"></div>
+          <a class="catalog-item-img-big" href="#">
+            <img class="catalog-item-img" src="img/img-barbershop.jpg" alt="barbershop" width="360" height="576">
+          </a>
+          <div class="catalog-item-popup">
+            <h2>Barbershop</h2>
+            <p>Сайт салоны красоты.<br> Для мужчин, да.</p>
+            <a class="btn price">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item-heading"></div>
+          <img class="catalog-item-img" src="img/img-mishka.jpg" alt="mishka" width="360" height="576">
+          <div class="catalog-item-popup">
+            <h2>Mishka</h2>
+            <p>Интернет-магазин<br> вязаных игрушек</p>
+            <a class="btn price">9900 руб.</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item-heading"></div>
+          <img class="catalog-item-img" src="img/img-aplus.jpg" alt="A+" width="360" height="576">
+          <div class="catalog-item-popup">
+            <h2>A Plus</h2>
+            <p>Лендинг курсов повышения<br> квалификации</p>
+            <a class="btn price">9900 руб.</a>
+        </article>
+        <article class="catalog-item">
+          <div class="catalog-item-heading"></div>
+          <img class="catalog-item-img" src="img/img-kvast.jpg" alt="kvast" width="360" height="576">
+          <div class="catalog-item-popup">
+            <h2>Кваст</h2>
+            <p>Промо-сайт производителя<br> крафтового кваса</p>
+            <a class="btn price">9900 руб.</a>
+          </div>
+        </article>
+      </div>
+      <!--пагинация ?-->
+      <div class="pagination">
+        <ul class="pagination-list">
+          <li class="pagination-item pagination-item-current"><a>1</a></li>
+          <li class="pagination-item"><a href="#">2</a></li>
+          <li class="pagination-item"><a href="#">3</a></li>
+        </ul>
+        <button class="btn pagination-btn">следущая</button>
+      </div>
+    </section>
+     <!--карта-->
+    <section class="address">
+      <div class="address-map">
+        <img class="map" src="img/map.jpg" alt="Карта" width="1200" height="400">
+      </div>
+      <div class="address-contacts">
+        <b class="address-contacts-title">NЁRDS DESIGN STUDIO</b>
+        <p class="address-contacts-text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <a class="addres-contacts-link" href="tel:+7 (812) 275-75-75">
+            тел. +7 (812) 275-75-75
+        </a>
+        <a class="btn" href="#" >Напишите нам</a>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="main-footer">
+      <section class="footer-social">
+        <a class="social-btn social-btn-vk" href="#">vk</a>
+        <a class="social-btn social-btn-fb" href="#">fb</a>
+        <a class="social-btn social-btn-inst" href="#">instagram</a>
+      </section>
+      <section class="footer-text">
+        <p class="footer-text-slogan">Давайте дружить, это выгодно!</p>
+        <span class="footer-text-small">Скидка 10% для друзей из социальных сетей.</span>
+      </section>
+    </footer>
+    <!--модалки - формы заполнения, всплывающие окна -->
+    <section class="modal modal-login">
+      <h2>напишите нам</h2>
+        <p>Ваше имя:</p>
+        <p>Ваш e-mail:</p>
+        <p>Текст письма:</p>
+       <!--здесь будет форма-->
+      <span class="modal-close">X</span>
+      <button class="btn modal-submit">ОТПРАВИТЬ</button>
+    </section>
+  </body>
+  </html>

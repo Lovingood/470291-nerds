@@ -1,0 +1,20 @@
+/* popup on index*/
+.white_back {
+  background-image: url("white back.png");
+  position: absolute;
+  left: 201px;
+  top: 1687px;
+  width: 1039px;
+  height: 669px;
+  z-index: 104;
+}
+/*карта включая невидимую часть*/
+.Слой_2 {
+  background-image: url("Слой 2.png");
+  position: absolute;
+  left: -226px;
+  top: 2420px;
+  width: 1725px;
+  height: 808px;
+  z-index: 25;
+}
