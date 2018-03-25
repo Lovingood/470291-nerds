@@ -1,3 +1,5 @@
+/* я это всё удалю !!!!!!!*/
+
 /* popup on index*/
 .white_back {
   background-image: url("white back.png");
@@ -17,4 +19,43 @@
   width: 1725px;
   height: 808px;
   z-index: 25;
+}
+/*karta obrez v index */
+.Прямоугольник_1 {
+  background-color: rgb( 181, 181, 181 );
+
+  width: 1440px;
+  height: 416px;
+
+}
+text {
+  .Вы_даже_не_подозре_аете___насколько__ы_изумител {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(40, 49, 54);
+  line-height: 1.5;
+
+  width: 213px;
+  height: 40px;
+  z-index: 52;
+}
+
+}
+.Layer_42_copy {
+  background-image: url("Layer 42 copy.png");
+  position: absolute;
+  left: 540px;
+  top: 922px;
+  width: 160px;
+  height: 50px;
+
+}
+.Layer_42_copy_2 {
+  background-image: url("Layer 42 copy 2.png");
+  position: absolute;
+  left: 940px;
+  top: 922px;
+  width: 160px;
+  height: 50px;
+  z-index: 58;
 }

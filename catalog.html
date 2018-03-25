@@ -9,13 +9,13 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-logo">
-          <img src="main-logo.jpg" href="index.html" width="50" height="50" alt="logo nerd's">
+        <a class="main-logo" href="index.html">
+          <img src="img/nerds-logo.svg" width="160" height="65" alt="logo nerd's">
         </a>
         <ul class="site-navigation">
           <li><a href="studio.html">Студия</a></li>
           <li><a href="customers.html">Клиенты</a></li>
-          <li><a class="site-navigation-current" href="catalog.html">Магазин</a></li>
+          <li><a class="site-navigation-current">Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
@@ -33,47 +33,39 @@
       </form>
     </section>
     <!--интерактивные элементы-->
-    <section class="sorting">
-      <b>Сортировать :</b>
-      <ul>
-        <li>по цене</li>
-        <li>по типу</li>
-        <li>по названию</li>
-      </ul>
-      <button class="btn sorting-down"></button>
-      <button class="btn sorting-up"></button>
-    </section>
+    <div class="sorting">
+      <b class="sorting-title">Сортировать:</b>
+      <a class="sorting-link active" href="#">по цене</a>
+      <a class="sorting-link" href="#">по типу</a>
+      <a class="sorting-link" href="#">по названию</a>
+      <a class="sorting-arrow down active"></a>
+      <a class="sorting-arrow app"></a>
+    </div>
     <section class="catalog">
       <div class="catalog-list">
         <article class="catalog-item">
           <div class="catalog-item-heading"></div>
-          <a class="catalog-item-img-big" href="#">
-            <img class="catalog-item-img" src="img/img-sedona.jpg" alt="sedona" width="360" height="576">
-          </a>
+          <img class="catalog-item-img" src="img/img-sedona.jp" alt="sedona" width="360" height="576">
           <div class="catalog-item-popup">
-            <h2>Sedona</h2>
+            <a href="#"><h2>Sedona</h2></a>
             <p>Информационный сайт<br> для туристов</p>
             <a class="btn price">9900 руб.</a>
           </div>
         </article>
         <article class="catalog-item">
           <div class="catalog-item-heading"></div>
-          <a class="catalog-item-img-big" href="#">
-            <img class="catalog-item-img" src="img/img-pink.jpg" alt="pink" width="360" height="576">
-          </a>
+          <img class="catalog-item-img" src="img/img-pink.jpg" alt="pink" width="360" height="576">
           <div class="catalog-item-popup">
-            <h2>Pink App</h2>
+            <a href="#"><h2>Pink App</h2></a>
             <p>Продуктовый лендинг<br> приложения для iOS и Android</p>
             <a class="btn price">9900 руб.</a>
           </div>
         </article>
         <article class="catalog-item">
           <div class="catalog-item-heading"></div>
-          <a class="catalog-item-img-big" href="#">
-            <img class="catalog-item-img" src="img/img-barbershop.jpg" alt="barbershop" width="360" height="576">
-          </a>
+          <img class="catalog-item-img" src="img/img-barbershop.jpg" alt="barbershop" width="360" height="576">
           <div class="catalog-item-popup">
-            <h2>Barbershop</h2>
+            <a href="#"><h2>Barbershop</h2></a>
             <p>Сайт салоны красоты.<br> Для мужчин, да.</p>
             <a class="btn price">9900 руб.</a>
           </div>
@@ -82,7 +74,7 @@
           <div class="catalog-item-heading"></div>
           <img class="catalog-item-img" src="img/img-mishka.jpg" alt="mishka" width="360" height="576">
           <div class="catalog-item-popup">
-            <h2>Mishka</h2>
+            <a href="#"><h2>Mishka</h2></a>
             <p>Интернет-магазин<br> вязаных игрушек</p>
             <a class="btn price">9900 руб.</a>
           </div>
@@ -91,7 +83,7 @@
           <div class="catalog-item-heading"></div>
           <img class="catalog-item-img" src="img/img-aplus.jpg" alt="A+" width="360" height="576">
           <div class="catalog-item-popup">
-            <h2>A Plus</h2>
+            <a href="#"><h2>A Plus</h2></a>
             <p>Лендинг курсов повышения<br> квалификации</p>
             <a class="btn price">9900 руб.</a>
         </article>
@@ -99,26 +91,23 @@
           <div class="catalog-item-heading"></div>
           <img class="catalog-item-img" src="img/img-kvast.jpg" alt="kvast" width="360" height="576">
           <div class="catalog-item-popup">
-            <h2>Кваст</h2>
+            <a href="#"><h2>Кваст</h2></a>
             <p>Промо-сайт производителя<br> крафтового кваса</p>
             <a class="btn price">9900 руб.</a>
           </div>
         </article>
       </div>
-      <!--пагинация ?-->
-      <div class="pagination">
-        <ul class="pagination-list">
-          <li class="pagination-item pagination-item-current"><a>1</a></li>
-          <li class="pagination-item"><a href="#">2</a></li>
-          <li class="pagination-item"><a href="#">3</a></li>
-        </ul>
-        <button class="btn pagination-btn">следущая</button>
+      <div class="paginations">
+        <a class="btn pagination-link active" href="#">1</a>
+        <a class="btn pagination-link" href="#">2</a>
+        <a class="btn pagination-link" href="#">3</a>
+        <a class="btn pagination-link next" href="#">Следующая</a>
       </div>
     </section>
      <!--карта-->
     <section class="address">
       <div class="address-map">
-        <img class="map" src="img/map.jpg" alt="Карта" width="1200" height="400">
+        <img class="map" src="img/map-plus-marker.png" alt="Карта" width="1440" height="416">
       </div>
       <div class="address-contacts">
         <b class="address-contacts-title">NЁRDS DESIGN STUDIO</b>
