@@ -143,7 +143,7 @@
       <div class="address-contacts">
         <b class="address-contacts-title">NЁRDS DESIGN STUDIO</b>
         <p class="address-contacts-text">191186, Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8</p>
-        <a class="addres-contacts-link" href="tel:+7 (812) 275-75-75">
+        <a class="addres-contacts-link" href="#">
             тел. +7 (812) 275-75-75
         </a>
         <a class="btn" href="#" >Напишите нам</a>
@@ -161,15 +161,25 @@
       </section>
     </footer>
     <!--модалки - формы заполнения, всплывающие окна -->
-    <section class="modal modal-login">
-      <h2>напишите нам</h2>
-        <p>Ваше имя:</p>
-        <p>Ваш e-mail:</p>
-        <p>Текст письма:</p>
-       <!--здесь будет форма-->
-      <span class="modal-close">X</span>
-      <button class="btn modal-submit">ОТПРАВИТЬ</button>
-    </section>
+    <div class="modal-content">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <h2 class="modal-content-title">напишите нам</h2>
+      <form class="form-modal clearfix" action="" method="post">
+        <label class="form-item">
+          <span class="form-item-text">Ваше имя:</span>
+          <input class="form-item-input" type="text" name="name" placeholder="Имя Фамилия">
+        </label>
+        <label class="form-item">
+        <span class="form-item-text">Ваш e-mail:</span>
+          <input class="form-item-input" type="email" name="email" placeholder="email@example.com">
+        </label>
+        <label class="form-item">
+        <span class="form-item-text">Текст письма:</span>
+          <textarea class="form-item-input form-textarea" name="name" rows="4">В свободной форме</textarea>
+        </label>
+        <button class="btn" type="submit" title="Отправить">Отправить</button>
+      </form>
+    </div>
   </body>
 </html>
 

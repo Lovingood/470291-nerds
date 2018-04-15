@@ -1,5 +1,7 @@
 /* я это всё удалю !!!!!!!*/
-
+th {
+  vertical-align: top;
+}
 /* popup on index*/
 .white_back {
   background-image: url("white back.png");
